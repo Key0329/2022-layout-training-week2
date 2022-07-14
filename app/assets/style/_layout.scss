@@ -1,0 +1,46 @@
+header{
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    color: $text-primary;
+    .container{
+        flex-direction: column;
+    }
+    p{
+        font-size: $fz-6;
+    }   
+    h1{
+        font-size: $fz-20;
+        line-height: 106px;
+    }
+    a:hover{
+        transition: 0.3s;
+        opacity: 0.3;
+    }
+}
+
+.subtitle{
+    font-size: $fz-6;
+    line-height: 42px;
+    align-self: flex-start;
+}
+
+
+footer{
+    background: #000;
+    color: $text-primary;
+    text-align: center;
+    padding: 64px 0;
+    h3{
+        font-size: $fz-16;
+        line-height: 84px;
+    }
+    a{
+        font-size: $fz-6;
+        &:hover{
+            transition: 0.3s;
+            opacity: 0.3;
+        }
+    }
+}
