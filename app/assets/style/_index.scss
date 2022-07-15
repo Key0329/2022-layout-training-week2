@@ -1,0 +1,68 @@
+.title{
+    font-size: $fz-16;
+    line-height: 84px;
+}
+
+.about{
+    text-align: center; 
+    font-size: $fz-6;
+    line-height: 42px;
+    .container{
+        flex-direction: column;
+    }
+    .degree{
+        line-height: 36px;
+    }
+    ul{
+        width: 384px;
+        padding-top: calc(28px - 1px);
+        border-top: 1px solid #000;
+    }
+    .circle{
+        width: 22px;
+        height: 22px;
+        background: #891818;
+        border-radius: 50%;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
+.brand{
+    background: #000;
+    color: $text-primary;
+    text-align: center;
+    padding: 56px 0 160px;
+    &-subtitle{
+        font-size: $fz-6;
+        line-height: 42px;
+    }
+    &-content{
+        font-size: $fz-5;
+    }
+    ul{
+        flex-wrap: wrap;
+    }
+    &-img1{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.otherWorks{
+    text-align: center;
+    p{
+        font-size: $fz-5;
+        line-height: 42px;
+    }
+    ul{
+        flex-wrap: wrap;
+        li{
+            margin-bottom: 48px;
+        }
+
+    }
+}
+.otherWorks .otherWorks-subtitle{
+    line-height: 1.5;
+}
