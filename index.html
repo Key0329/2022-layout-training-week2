@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>W2-個人網頁</title>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style/all.css">
 </head>
 
 <body>
 
-    <header class="header d-flex f-jcc f-aic mb-14">
+    <header data-aos="fade-in" data-aos-duration="800" class="header d-flex f-jcc f-aic mb-14">
 		<div class="container d-flex f-aic">
 			<p class="subtitle bold">Here's</p>
 			<h1 class="black mb-8">JOANNE</h1>
@@ -29,7 +30,7 @@
     
 <main>
     
-    <section class="about mb-14">
+    <section data-aos="zoom-in-up" data-aos-duration="800" class="about mb-14">
         <div class="container d-flex f-aic">
             <h2 class="title mb-10">About</h2>
             <img class="mb-5" src="./assets/images/photo.png" alt="photo">
@@ -45,7 +46,7 @@
     </section>
     
     <section class="brand mb-14">
-        <div class="container">
+        <div data-aos="zoom-out" data-aos-duration="800" class="container">
             <h2 class="title mb-3">My Brand ‘’XXXD’’</h2>
             <p class="brand-subtitle mb-8">Just Keep XXXD Everyday</p>
             <p class="brand-content mb-17">2020 年創立的個人服飾品牌 <br> 引領叛逆少年開啟與社會對話的窗口 <br> 主打概念潮流T-Shirt</p>
@@ -62,14 +63,14 @@
             <h2 class="title mb-4">Other Works</h2>
             <p class="otherWorks-subtitle mb-14">2016-2020 年累積的作品 <br> 海報/廣告/攝影/LOGO/3D</p>
             <ul class="d-flex f-jcsb">
-                <li><img class="mb-4" src="./assets/images/work_img1.png" alt="work_img1"><p>海報設計/2017</p></li>
-                <li><img class="mb-4" src="./assets/images/work_img2.png" alt="work_img2"><p>海報設計/2018</p></li>
-                <li><img class="mb-4" src="./assets/images/work_img3.png" alt="work_img3"><p>海報設計/2018</p></li>
-                <li><img class="mb-4" src="./assets/images/work_img4.png" alt="work_img4"><p>概念攝影/2018</p></li>
-                <li><img class="mb-4" src="./assets/images/work_img5.png" alt="work_img5"><p>概念攝影/2018</p></li>
-                <li><img class="mb-4" src="./assets/images/work_img6.png" alt="work_img6"><p>sasa 酒標設計/2019</p></li>
-                <li><img class="mb-4" src="./assets/images/work_img7.png" alt="work_img7"><p>攝影創作/2018</p></li>
-                <li><img class="mb-4" src="./assets/images/work_img8.png" alt="work_img8"><p>官網設計/2020</p></li>
+                <li data-aos="fade-down-right" data-aos-duration="800"><img class="mb-4" src="./assets/images/work_img1.png" alt="work_img1"><p>海報設計/2017</p></li>
+                <li data-aos="fade-down" data-aos-duration="800"><img class="mb-4" src="./assets/images/work_img2.png" alt="work_img2"><p>海報設計/2018</p></li>
+                <li data-aos="fade-down-left" data-aos-duration="800"><img class="mb-4" src="./assets/images/work_img3.png" alt="work_img3"><p>海報設計/2018</p></li>
+                <li data-aos="fade-right" data-aos-duration="800"><img class="mb-4" src="./assets/images/work_img4.png" alt="work_img4"><p>概念攝影/2018</p></li>
+                <li data-aos="fade-left" data-aos-duration="800"><img class="mb-4" src="./assets/images/work_img5.png" alt="work_img5"><p>概念攝影/2018</p></li>
+                <li data-aos="fade-up-right" data-aos-duration="800"><img class="mb-4" src="./assets/images/work_img6.png" alt="work_img6"><p>sasa 酒標設計/2019</p></li>
+                <li data-aos="fade-up" data-aos-duration="800"><img class="mb-4" src="./assets/images/work_img7.png" alt="work_img7"><p>攝影創作/2018</p></li>
+                <li data-aos="fade-up-left" data-aos-duration="800"><img class="mb-4" src="./assets/images/work_img8.png" alt="work_img8"><p>官網設計/2020</p></li>
             </ul>
         </div>
     </section>
@@ -78,12 +79,14 @@
 
 
     <footer class="footer">
-		<h2 class="title medium mb-4">Contact</h3>
-		<a class="medium mb-4" href="mailto:xxxd@hexschool.com">Mail：xxxd@hexschool.com</a>
-		<a class="medium" href="tel:0910123456">Phone Number：0910123456</a>
+		<div data-aos="slide-up" data-aos-duration="800">
+			<h2 class="title medium mb-4">Contact</h3>
+			<a class="medium mb-4" href="mailto:xxxd@hexschool.com">Mail：xxxd@hexschool.com</a>
+			<a class="medium" href="tel:0910123456">Phone Number：0910123456</a>
+		</div>
     </footer>
 
-
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>
 </body>
