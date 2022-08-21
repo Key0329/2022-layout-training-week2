@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title><%- title %></title>
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style/all.css">
 </head>
 
 <body>
 
-    <header class="header d-flex f-jcc f-aic mb-14">
+    <header data-aos="fade-in" data-aos-duration="800" class="header d-flex f-jcc f-aic mb-14">
 		<div class="container d-flex f-aic">
 			<p class="subtitle bold">Here's</p>
 			<h1 class="black mb-8">JOANNE</h1>
@@ -30,12 +31,14 @@
 
 
     <footer class="footer">
-		<h2 class="title medium mb-4">Contact</h3>
-		<a class="medium mb-4" href="mailto:xxxd@hexschool.com">Mail：xxxd@hexschool.com</a>
-		<a class="medium" href="tel:0910123456">Phone Number：0910123456</a>
+		<div data-aos="slide-up" data-aos-duration="800">
+			<h2 class="title medium mb-4">Contact</h3>
+			<a class="medium mb-4" href="mailto:xxxd@hexschool.com">Mail：xxxd@hexschool.com</a>
+			<a class="medium" href="tel:0910123456">Phone Number：0910123456</a>
+		</div>
     </footer>
 
-
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="./assets/js/vendors.js"></script>
     <script src="./assets/js/all.js"></script>
 </body>
